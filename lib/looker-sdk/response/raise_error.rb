@@ -30,7 +30,7 @@ module LookerSDK
   module Response
 
     # HTTP status codes returned by the API
-    class RaiseError < Faraday::Response::Middleware
+    class RaiseError < Faraday::Middleware
 
       private
 
